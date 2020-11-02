@@ -1,0 +1,42 @@
+" ------[ Other ViM Startup settings ]------
+set nu			" Setting line number
+set tabstop=4
+set shiftwidth=4
+set smartindent
+set cindent
+set cursorline
+
+" Theme settings
+let g:gruvbox_bold=1
+let g:gruvbox_italic=1
+let g:gruvbox_underline=1
+let g:gruvbox_contrast_dark='soft' " values: soft, midum, hard
+" let g:gruvbox_contrast_light='soft' " light theme contrast values: soft, midum, hard
+set background=dark
+colorscheme gruvbox
+
+let mapleader=","
+
+" ------[ C Code abbreviation ]------
+iab cmain #include<stdio.h><CR><CR>int main()<CR>{<CR>return 0;<CR>}<UP><UP>
+iab printf printf("\n ");<C-Left><BS>
+iab fprintf fprintf(stderr, "\n ");<C-Left><BS>
+iab scanf scanf("% ");<C-Left><BS>
+iab def_max #define max(a, b) ((a) > (b)) ? (a) : (b)<C-Left>
+iab def_min #define min(a, b) ((a) < (b)) ? (a) : (b)<C-Left>
+
+
+nmap <leader>bbt :read bbt.c<CR>
+nmap <leader>java :read ~/.vim/snippets/java_template.java<CR>
+nmap <leader>codechef :read ~/.vim/snippets/codechef.c<CR>16jO
+
+" File Find
+set path+=**
+set wildmenu " tab completes filename argument of find command with wildcard characters
+" set wildignore+=**/ignore_folder/** " ignores particual forlder for finding files
+" example find commands:
+" :find *Controller.php [TAB]
+
+" My vim key bindings
+" Ctrl + P like in sublime for fuzzy file serach
+map <C-P> :find 

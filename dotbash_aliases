@@ -1,0 +1,33 @@
+# Git aliases
+alias gita='git add -A'
+alias gitc='git commit'
+alias gits='git status'
+alias gitl='git log'
+alias gitrv='git remote -v'
+alias gitb='git branch'
+alias gitcm='git checkout master'
+alias gitcd='git checkout development'
+alias gitmd='git merge development'
+alias gitp='git push origin master'
+
+# Apache2 Server
+alias wsstart='sudo systemctl start apache2'
+alias wsstatus='sudo systemctl status apache2'
+alias wsrestart='sudo systemctl restart apache2'
+alias wsstop='sudo systemctl stop apache2'
+
+# C Project Development jumps
+alias cdcd='cd ~/Dropbox/Developments/c_devl'
+alias cdmyp='cd ~/Dropbox/Developments/c_devl/myprojs'
+
+# Db scripts used in web development
+alias rollbackdb='~/Dropbox/Developments/shell/db_rollback.sh'
+alias backupdb='~/Dropbox/Developments/shell/db_backup.sh'
+
+alias shrinkpdf='~/Dropbox/Developments/shell/shrinkpdf.sh'
+alias weather='~/Dropbox/Developments/shell/weather.sh'
+
+alias backupclassroomserver='~/Dropbox/Developments/shell/classroomserverbackup.sh'
+alias itmo='~/Dropbox/Developments/c_devl/itmo/itmo'
+
+alias create-project='~/Dropbox/Developments/shell/create-project.sh'
