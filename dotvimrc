@@ -40,3 +40,4 @@ set wildmenu " tab completes filename argument of find command with wildcard cha
 " My vim key bindings
 " Ctrl + P like in sublime for fuzzy file serach
 map <C-P> :find 
+set runtimepath^=~/.vim/ctrlp.vim
