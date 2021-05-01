@@ -31,4 +31,5 @@ alias backupclassroomserver='~/Dropbox/Developments/shell/classroomserverbackup.
 alias itmo='~/Dropbox/Developments/c_devl/itmo/itmo'
 
 alias create-project='~/Dropbox/Developments/shell/create-project.sh'
-alias cdweb='~/apps/web'
+alias cdweb='cd ~/apps/web'
+alias mycreds='vim ~/Dropbox/my-credentials.txt'
