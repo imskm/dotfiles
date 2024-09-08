@@ -31,5 +31,12 @@ alias backupclassroomserver='~/Dropbox/Developments/shell/classroomserverbackup.
 alias itmo='~/Dropbox/Developments/c_devl/itmo/itmo'
 
 alias create-project='~/Dropbox/Developments/shell/create-project.sh'
+alias merge-fe='~/Dropbox/Developments/shell/merge_frontend.sh'
 alias cdweb='cd ~/apps/web'
+alias cdmob='cd ~/apps/mobile'
 alias mycreds='vim ~/Dropbox/my-credentials.txt'
+
+alias rmtailwindcssdarkness='~/apps/system/tailwindcss/tailwindcss'
+
+alias art="php artisan"
+alias newkodev="~/Downloads/kore-4.3.0-rc2/kodev/kodev"
